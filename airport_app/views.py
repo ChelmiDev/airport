@@ -7,3 +7,9 @@ from rest_framework import viewsets, status
 class Avion_view(viewsets.ModelViewSet):
     queryset = Avion.objects.all()
     serializer_class = Avion_Serializer
+
+class Piloto_view(viewsets.ModelViewSet):
+    queryset = Piloto.objects.all()
+    serializer_class = Piloto_Serializer
+
+
