@@ -14,13 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 # from django.contrib import admin
+from os.path import basename
+
 from django.urls import path
 from django.urls import path, include
 from rest_framework import routers
 from airport_app.views import *
 
 router = routers.DefaultRouter()
-router.register('avion',Avion_view,basename='avion')
+router.register('avion', Avion_view, basename='avion')
+router.register('piloto', Piloto_view, basename='piloto')
+router.register('tripulacion', Tripulacion_view, basename='tripulacion')
+router.register('vuelo', Vuelo_view, basename='Vuelo')
+router.register('itinerario', Itinerario_view, basename='Itinerario')
+router.register('usuario', Usuario_view, basename='usuario')
 urlpatterns = [
-    path('',include(router.urls))
+    path('', include(router.urls)),
+    path('token', CustomAuthToken.as_view(), name='token'),
 ]
