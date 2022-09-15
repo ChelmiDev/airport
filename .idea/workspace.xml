@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5624c84b-67e9-4910-b36d-58f031499c8d" name="Changes" comment="base de datos">
-      <change beforePath="$PROJECT_DIR$/airport/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airport/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="5624c84b-67e9-4910-b36d-58f031499c8d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +118,7 @@
       <workItem from="1663127618718" duration="1721000" />
       <workItem from="1663204031233" duration="2971000" />
       <workItem from="1663214043120" duration="778000" />
-      <workItem from="1663276269239" duration="1285000" />
+      <workItem from="1663276269239" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="inicio del proyecto de api airport">
       <created>1661521112545</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663276471778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="archivos">
+      <created>1663277802976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663277802976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +169,7 @@
     <MESSAGE value="inicio del proyecto de api airport" />
     <MESSAGE value="view piloto" />
     <MESSAGE value="base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="base de datos" />
+    <MESSAGE value="archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="archivos" />
   </component>
 </project>
