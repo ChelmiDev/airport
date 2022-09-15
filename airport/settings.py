@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import corsheaders
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -25,7 +27,11 @@ SECRET_KEY = 'django-insecure-6lj+x-=7zdt7awob*c=9cwy*$$ex*iu*!(49nj%#mjv#55l5xa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 AUTH_USER_MODEL = 'airport_app.Usuario'
-ALLOWED_HOSTS = []
+#para permitir accesso desde front
+ALLOWED_HOSTS = ['*']
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_METHODS = ['GET','OPTIONS','PATCH','POST','PUT', 'DELETE',]
+CORS_ALLOW_CREDENTIALS = True
 
 
 # Application definition
@@ -39,6 +45,8 @@ INSTALLED_APPS = [
     'airport_app.apps.AirportAppConfig',
     'rest_framework',
     'rest_framework.authtoken',
+    #se instalo cor-django-headers
+    'corsheaders',
 
 ]
 
@@ -50,6 +58,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    #para acceptar las peticion
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'airport.urls'

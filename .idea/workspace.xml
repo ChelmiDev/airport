@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5624c84b-67e9-4910-b36d-58f031499c8d" name="Changes" comment="base de datos">
+      <change beforePath="$PROJECT_DIR$/airport/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airport/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="401bb603-5bba-4fc6-a005-ebb265cd6f1d" value="Green" />
+    </colors>
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DSGTD9XqBqYORqQZ8L5bcw8lDa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bitpc/Descargas/bd&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="airport" type="Python.DjangoServer" factoryName="Django server">
+      <module name="airport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="airport.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5624c84b-67e9-4910-b36d-58f031499c8d" name="Changes" comment="" />
+      <created>1660685087075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660685087075</updated>
+      <workItem from="1660685092609" duration="575000" />
+      <workItem from="1660851343833" duration="836000" />
+      <workItem from="1660852318992" duration="849000" />
+      <workItem from="1660863481329" duration="268000" />
+      <workItem from="1660863861693" duration="3988000" />
+      <workItem from="1660871815347" duration="1726000" />
+      <workItem from="1660873684674" duration="452000" />
+      <workItem from="1660935393869" duration="3595000" />
+      <workItem from="1660950100602" duration="6683000" />
+      <workItem from="1661261472393" duration="284000" />
+      <workItem from="1661262239395" duration="6187000" />
+      <workItem from="1661520052008" duration="1812000" />
+      <workItem from="1661522443484" duration="5186000" />
+      <workItem from="1661647530657" duration="648000" />
+      <workItem from="1661717007148" duration="3752000" />
+      <workItem from="1661814265056" duration="3239000" />
+      <workItem from="1661908087619" duration="31000" />
+      <workItem from="1661988574918" duration="11000" />
+      <workItem from="1661989436324" duration="32000" />
+      <workItem from="1661989835579" duration="182000" />
+      <workItem from="1662075638228" duration="1588000" />
+      <workItem from="1662078357641" duration="485000" />
+      <workItem from="1662158499094" duration="25000" />
+      <workItem from="1662240781437" duration="168000" />
+      <workItem from="1662241313396" duration="369000" />
+      <workItem from="1662242714730" duration="1071000" />
+      <workItem from="1663103767301" duration="904000" />
+      <workItem from="1663104884607" duration="336000" />
+      <workItem from="1663105667462" duration="205000" />
+      <workItem from="1663107675133" duration="543000" />
+      <workItem from="1663118317626" duration="249000" />
+      <workItem from="1663119826484" duration="747000" />
+      <workItem from="1663127618718" duration="1721000" />
+      <workItem from="1663204031233" duration="2971000" />
+      <workItem from="1663214043120" duration="778000" />
+      <workItem from="1663276269239" duration="1285000" />
+    </task>
+    <task id="LOCAL-00001" summary="inicio del proyecto de api airport">
+      <created>1661521112545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661521112545</updated>
+    </task>
+    <task id="LOCAL-00002" summary="view piloto">
+      <created>1661521292636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661521292636</updated>
+    </task>
+    <task id="LOCAL-00003" summary="base de datos">
+      <created>1663276471777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663276471778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicio del proyecto de api airport" />
+    <MESSAGE value="view piloto" />
+    <MESSAGE value="base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="base de datos" />
+  </component>
+</project>
